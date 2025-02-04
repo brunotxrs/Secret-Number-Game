@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.section-tempo {
+    width: 100%;
+    height: 500px;
+    background: url(../img/code.png) no-repeat center;
+    background-size: cover;
+    color: #1875E8;
+    font-weight: bold;
+    font-family: "Chakra Petch", serif;
+    text-transform: uppercase;
+
+    display: none;
+
+    .box-tempo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .balao-timer {
+        position: relative;
+        background: #fff;
+        padding: 10px 15px;
+        border-radius: 10px;
+        max-width: 250px;
+        color: #1875E8;
+        box-shadow: 0 0 10px #000;
+    }
+
+    .balao-timer::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 130px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #fff;
+    }
+    
+    img {
+        margin-top: 30px;
+        width: 200px;
+        height: 300px;
+        filter: drop-shadow(0 0 5px #fff);
+    }
+
+    .home2 {
+        margin-top: 30px;
+        font-family: "Chakra Petch", serif;
+        text-transform: uppercase;
+        font-size: 2em;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 150px;
+        background-color: #1875E8;
+        color: #fff;
+        border: none;
+        outline: 1px solid #fff;
+        cursor: pointer;
+    }
+
+    .home2:hover {
+        outline: 1px solid #fff;
+        background-color: #1876e8dc;
+        box-shadow: 0 0 10px #fff;
+    }
+
+}
+
+@media (orientation: landscape) {
+ 
+    .section-tempo {
+
+        .balao-timer {
+            font-size: 1.2em;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .section-tempo {
+        width: 100%;
+
+        .balao-timer {
+            max-width: 800px;
+            font-size: 1.5em;
+        }
+
+        img {
+            width: 300px;
+            height: 400px;
+        }
+    }
+}
+@media (min-width: 1025px) {
+
+    .section-tempo {
+        width: 100%;
+
+        .balao-timer {
+            max-width: 800px;
+            font-size: 1.5em;
+        }
+
+        img {
+            width: 250px;
+            height: 300px;
+        }
+    }
+}
