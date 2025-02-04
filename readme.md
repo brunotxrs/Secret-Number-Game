@@ -4,7 +4,7 @@ Um jogo interativo no qual o jogador tenta adivinhar um número secreto dentro d
 
 ## 📷 Preview  
 <p align="center">
-  <img src="./src/img/jogo-numero-secreto.gif" alt="jogo numero secreto">
+  <a href="https://brunotxrs.github.io/Secret-Number-Game/"><img src="./src/img/jogo-numero-secreto.gif" alt="jogo numero secreto"></a>
 </p>
 
 ## 🛠️ Tecnologias Utilizadas  
@@ -54,12 +54,12 @@ O site foi projetado para se adaptar a diferentes dispositivos, incluindo:
 ## 🚀 Como Rodar o Projeto  
 1. Clone este repositório:  
    ```sh
-   git clone https://github.com/seu-usuario/SecretNumberGame.git
+   git clone https://github.com/brunotxrs/Secret-Number-Game
 
    ```
 2. Acesse a pasta do projeto:  
    ```sh
-   cd SecretNumberGame
+   cd Secret-Number-Game
    ```
 3. Abra o arquivo `index.html` em um navegador.
 
