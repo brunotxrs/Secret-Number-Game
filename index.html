@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Number Game</title>
+    <link rel="shortcut icon" href="./src/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <main>
+        <section class="section-one" id="one-section">
+             <div class="apresentar">
+                <p class="balao-0">Boas vindas ao <span>jogo do número secreto!</span></p>
+                <img src="./src/img/robot.png" alt="Robô">
+             </div>
+
+             <input class="btn-apresentar" type="button" value="Começar" id="start">
+        </section>
+
+        <section class="section-two" id="two-section">
+            <p class="timer" id="timer">30</p>
+            <div class="form">
+                <form action="">
+                    <input class="number" type="number" name="number-secret" id="number-secret" required placeholder="Digite um Número">
+
+                    <label for="number-secret" id="label">Digite um Número
+                    </label>
+                    <p class="balao" id="balao"></p>
+                    <div class="box-one" id="one-box">
+                        <img src="src/img/robot-acertou.png" alt="Robô">
+                    </div>
+
+                    <div class="box-two" id="two-box">
+                        <img src="./src/img/robot-erro.png" alt="Robô">
+                    </div>
+
+                    <input type="button" value="verificar" class="verif" id="check">
+
+                    <input type="reset" value="limpar" class="limpar" id="home">
+                </form>
+            </div>
+        </section>
+
+        <section class="section-tempo" id="tempo-section">
+            <div class="box-tempo">
+                <p class="balao-timer">⏳ Tempo esgotado!</p>
+                <img src="./src/img/robo-timer.png" alt="Robô">
+
+                <input class="home2" type="button" value="home" id="home2">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="mudar"><p>Create by Dev Front-End <span id="change">👨🏻‍💻</span> <a href="https://github.com/brunotxrs">Bruno Teixeira</a></p></footer>
+    <script src="./src/js/action.js"></script>
+</body>
+</html>
