@@ -99,6 +99,8 @@
         position: relative;
         z-index: 1;
 
+        width: 100%;
+        text-align: center;
         img {
             width: 200px;
             height: 300px;
@@ -176,18 +178,30 @@
             top: -55px;
         }
 
-        .balao {
-            width: 200px;
-        }
+        
+        .box-one, .box-two {
+            width: 100%;
+            text-align: right;
 
+         
+        }
         .box-one > img {
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
+
         }
 
         .box-two > img {
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
+
+        }
+
+        .balao {
+            width: 200px;
+            position: absolute;
+            left: 10px;
+            
         }
 
         .balao::after {
