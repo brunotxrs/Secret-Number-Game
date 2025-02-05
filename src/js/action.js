@@ -29,10 +29,11 @@ let numeroSecreto = parseInt(Math.random() * numeroMax + 1);
 let tentativas = 0;
 
 let tempoSection = document.getElementById('tempo-section');
-// ao clicar no botao limpar levar para tela inicial
+// ao clicar no botao home na area do time
 let home2 = document.getElementById('home2');
     home2.addEventListener('click', () => {
-        location.href = 'index.html';
+        location.replace('index.html');
+
     })
 
 // função de timer
@@ -67,6 +68,7 @@ function numSecret() {
         oneBox.style.display = 'none';
         twoBox.style.display = 'block';
         home.addEventListener('click', () => {
+            oneBox.style.display = 'none';
             twoBox.style.display = 'none';
             balao.style.display = 'none';
             });
