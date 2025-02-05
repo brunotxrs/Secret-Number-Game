@@ -4,7 +4,7 @@ Um jogo interativo no qual o jogador tenta adivinhar um número secreto dentro d
 
 ## 📷 Preview  
 <p align="center">
-  <a href="https://brunotxrs.github.io/Secret-Number-Game/"><img src="./src/img/jogo-numero-secreto.gif" alt="jogo numero secreto"></a>
+  <a href="https://brunotxrs.github.io/Secret-Number-Game/"><img src="./src/img/image-to-readme.gif" alt="jogo numero secreto"></a>
 </p>
 
 ## 🛠️ Tecnologias Utilizadas  
