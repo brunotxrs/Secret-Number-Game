@@ -89,6 +89,8 @@ function numSecret() {
         O <strong>${numeroSecreto}</strong> é o número secreto!<br>
         Você descobriu com <strong>${tentativas}</strong> ${palavraTentativa}!`;
 
+        document.getElementById('home').value = 'home';       
+
         home.addEventListener('click' , () => {
             location.href = 'index.html';
         });
